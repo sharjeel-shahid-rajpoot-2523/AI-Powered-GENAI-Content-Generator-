@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://ai-powered-genai-content-generator.vercel.app',
 });
 
 export const generatePost = async(topic,platform) => {
