@@ -11,3 +11,8 @@ build/
 
 # Debug Logs
 *.log
+
+LangChain/.venv/
+LangChain/__pycache__/
+*.pyc
+.vscode/
